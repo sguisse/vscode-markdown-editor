@@ -60,3 +60,6 @@ typings/
 lib
 *.vsix
 out
+dist
+.history
+.yarnrc.yml

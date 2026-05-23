@@ -2,7 +2,14 @@
 	"compilerOptions": {
 		"module": "commonjs",
 		"target": "es2019",
-		"lib": ["ES2019"],
+		"lib": [
+			"ES2019",
+			"DOM"
+		],
+		"types": [
+			"node"
+		],
+		"skipLibCheck": true,
 		"outDir": "out",
 		"sourceMap": true,
 		"strict": true,
@@ -10,5 +17,10 @@
 		"resolveJsonModule": true,
 		"esModuleInterop": true
 	},
-	"exclude": ["node_modules", ".vscode-test.js", "media-src", "Foyfile.ts"]
+	"exclude": [
+		"node_modules",
+		".vscode-test.js",
+		"media-src",
+		"Foyfile.ts"
+	]
 }
